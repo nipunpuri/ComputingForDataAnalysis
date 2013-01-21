@@ -16,7 +16,8 @@ getmonitor <- function(id, directory, summarize = FALSE) {
   inputFileName <- paste(directory,"/",formattedId,".csv", sep="")
   inputData <- read.csv(inputFileName)
   if (summarize == TRUE)
+  {
     print(summary(inputData))
-          
+  }          
   inputData
 }
