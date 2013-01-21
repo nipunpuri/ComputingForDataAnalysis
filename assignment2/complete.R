@@ -13,6 +13,8 @@ complete <- function(directory, id = 1:332) {
   ## where 'id' is the monitor ID number and 'nobs' is the
   ## number of complete cases
   
+  ## @author: Vivek Hariharan
+  
   countVector<-c()
   for(index in 1:(length(id)))
   {

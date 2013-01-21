@@ -10,7 +10,7 @@ getmonitor <- function(id, directory, summarize = FALSE) {
   ## the data should be printed to the console; the default is
   ## FALSE
   
-  ## Your code here
+  ## @author: Vivek Hariharan
   
   formattedId = formatC(id,width=3,flag="0")
   inputFileName <- paste(directory,"/",formattedId,".csv", sep="")
